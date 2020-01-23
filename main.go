@@ -9,6 +9,9 @@ func main() {
 	// initialise verable
 	text := "Hello Gold!"
 	filename := "hello.txt"
+
+	// Testing function return result
+	createfile(5, 5)
 	// Chek existing file, if existing function is close
 	if _, err := os.Stat(filename); !os.IsNotExist(err) {
 		fmt.Println("Такой файл уже существует:", filename)
@@ -27,4 +30,11 @@ func main() {
 	file.WriteString(text)
 	fmt.Println("Test")
 	fmt.Println("Done.")
+
+}
+
+func createfile(a int, b int) {
+	z := a + b
+	fmt.Println(z)
+
 }
