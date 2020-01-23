@@ -25,6 +25,6 @@ func main() {
 	}
 	defer file.Close()
 	file.WriteString(text)
-
+	fmt.Println("Test")
 	fmt.Println("Done.")
 }
