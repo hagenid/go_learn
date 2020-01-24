@@ -17,7 +17,7 @@ func main() {
 	createfile(0, 50)
 	// Chek existing file, if existing function is close
 	if _, err := os.Stat(filename); !os.IsNotExist(err) {
-		fmt.Println("Такой файл уже существует:", filename)
+		color.BgGray.Println("Такой файл уже существует:", filename)
 		os.Exit(0)
 	} else {
 		//fmt.Println("test1")
@@ -27,7 +27,7 @@ func main() {
 	file, err := os.Create(filename)
 
 	if err != nil {
-		fmt.Println("Unable to create file:", err)
+		color.Red.Println("Unable to create file:", err)
 		return
 	}
 	defer file.Close()
