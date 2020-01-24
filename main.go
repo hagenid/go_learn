@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/fatih/color"
+	"github.com/gookit/color"
 )
 
 func main() {
 	// initialise verable
 	text := "Hello Gold!"
 	filename := "hello.txt"
-
+	color.Cyan.Printf("Simple to use %s\n", "color")
 	// Testing
 	//function return result
 	createfile(0, 50)
@@ -21,7 +21,7 @@ func main() {
 		os.Exit(0)
 	} else {
 		//fmt.Println("test1")
-		color.Yellow("test1")
+		color.Yellow.Println("test1")
 	}
 
 	file, err := os.Create(filename)
@@ -34,11 +34,11 @@ func main() {
 	file.WriteString(text)
 	fmt.Println("Test")
 	fmt.Println("Done.")
-	color.Red("tttt")
+	color.Red.Println("Done.")
 }
 
 func addfile(fileexist string) {
-	fileexist
+
 }
 
 func createfile(a int, b int) {
