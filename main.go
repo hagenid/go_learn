@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
+
+	"github.com/fatih/color"
 )
 
 func main() {
@@ -18,7 +20,8 @@ func main() {
 		fmt.Println("Такой файл уже существует:", filename)
 		os.Exit(0)
 	} else {
-		fmt.Println("test1")
+		//fmt.Println("test1")
+		color.Yellow("test1")
 	}
 
 	file, err := os.Create(filename)
@@ -31,7 +34,11 @@ func main() {
 	file.WriteString(text)
 	fmt.Println("Test")
 	fmt.Println("Done.")
+	color.Red("tttt")
+}
 
+func addfile(fileexist string) {
+	fileexist
 }
 
 func createfile(a int, b int) {
