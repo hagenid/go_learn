@@ -10,8 +10,8 @@ func main() {
 	text := "Hello Gold!"
 	filename := "hello.txt"
 
-	// Testing 
-	function return result
+	// Testing
+	//function return result
 	createfile(0, 50)
 	// Chek existing file, if existing function is close
 	if _, err := os.Stat(filename); !os.IsNotExist(err) {
@@ -40,8 +40,8 @@ func createfile(a int, b int) {
 		z := a + b
 		fmt.Println(z)
 	} else {
-		z := a - b
-		fmt.Println(&z)
+		k := a - b
+		fmt.Println(k)
 	}
 
 }
