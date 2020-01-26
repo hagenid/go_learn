@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"os"
-
 	"github.com/gookit/color"
+	"os"
+	"time"
 )
 
 func main() {
@@ -12,6 +12,8 @@ func main() {
 	text := "Hello Gold!"
 	filename := "hello.txt"
 	color.Cyan.Printf("Simple to use %s\n", "color")
+	ctime := time.RFC822
+	fmt.Printf("current unix timestamp is :%v\n", ctime)
 	// Testing
 	//function return result
 	createfile(0, 50)
@@ -35,6 +37,7 @@ func main() {
 	fmt.Println("Test")
 	fmt.Println("Done.")
 	color.Red.Println("Done.")
+
 }
 
 func addfile(fileexist string) {
