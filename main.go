@@ -3,12 +3,15 @@ package main
 import (
 	"fmt"
 	"github.com/gookit/color"
+	testmod "github.com/hagenid/go_learn/cmd"
 	"os"
 	"time"
 )
 
 // test
 func main() {
+	color.Red.Println(testmod.Foo)
+
 	// initialise verable
 	text := "Hello Gold!"
 	filename := "hello.txt"
