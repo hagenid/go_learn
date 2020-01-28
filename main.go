@@ -10,7 +10,7 @@ import (
 
 // test
 func main() {
-	color.Red.Println(testmod.Foo)
+	color.White.Println(testmod.Foo)
 
 	// initialise verable
 	text := "Hello Gold!"
