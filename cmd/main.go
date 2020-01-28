@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// test
 func main() {
 	// initialise verable
 	text := "Hello Gold!"
