@@ -1,3 +1,3 @@
 package utils
 
-var C string = "test utils"
+var R string = "package utils, file read_file.go"
