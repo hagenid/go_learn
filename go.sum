@@ -2,6 +2,8 @@ github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gookit/color v1.2.2 h1:IPG03BHqn23rgU597fFC8UNdlvEbQrZxYQyZqE0wkDw=
 github.com/gookit/color v1.2.2/go.mod h1:AhIE+pS6D4Ql0SQWbBeXPHw7gY0/sjHoA4s/n1KB7xg=
+github.com/gorilla/mux v1.7.3 h1:gnP5JzjVOuiZD07fKKToCAOjS0yOpj/qPETTXCCS6hw=
+github.com/gorilla/mux v1.7.3/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
 github.com/hagenid/go_learn v0.0.0-20200129083748-5f218597f09c h1:iBmPitYw6i3IC+JWJXnWHnbOgv19E+a96BJDksp4qtw=
 github.com/hagenid/go_learn v0.0.0-20200129083748-5f218597f09c/go.mod h1:qlBI1VwH2+XcHInnFsg82bg7+eHbOonlhMUeJXaKpVo=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
