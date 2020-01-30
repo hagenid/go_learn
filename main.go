@@ -13,6 +13,9 @@ type Person struct {
 }
 
 func main() {
+
+
+	
 	color.Red.Println("test")
 	color.Red.Println(cmd.A)
 	color.Green.Println(utils.R)
