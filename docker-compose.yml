@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  go_learn:
+    image: go_learn
+    build: .
+    ports:
+      - 3000:3000
